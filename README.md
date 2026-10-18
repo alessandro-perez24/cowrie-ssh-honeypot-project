@@ -26,7 +26,7 @@ A cloud-hosted SSH honeypot deployed on AWS EC2 to observe, collect, and analyze
 
 ## Dashboard Pages
 
-### 1. Cowrie Attack Dashboard ([Screenshot](screenshots/dashboard.png))
+### 1. Cowrie Attack Dashboard ([Screenshot](screenshots/cowrie-dashboard.png))
 
 Provides an overview of recorded honeypot activity, including total events, failed logins, entered commands, file downloads, event distributions, active source IPs, and commonly attempted usernames and commands.
 
