@@ -26,15 +26,15 @@ A cloud-hosted SSH honeypot deployed on AWS EC2 to observe, collect, and analyze
 
 ## Dashboard Pages
 
-### 1. Cowrie Attack Dashboard
+### 1. Cowrie Attack Dashboard ([Screenshot](screenshots/dashboard.png))
 
 Provides an overview of recorded honeypot activity, including total events, failed logins, entered commands, file downloads, event distributions, active source IPs, and commonly attempted usernames and commands.
 
-### 2. Threat Monitor
+### 2. Threat Monitor ([Screenshot](screenshots/threat_monitor.png))
 
 Highlights potentially suspicious activity using rule-based indicators, including credential discovery, download attempts, remote execution or networking utilities, persistence attempts, privilege escalation, destructive commands, system reconnaissance, and repeated failed login attempts.
 
-### 3. Attacker Behavior Profiles
+### 3. Attacker Behavior Profiles ([Screenshot](screenshots/attacker_behavior_profiles.png))
 
 Supports investigation of individual source IP addresses and sessions. Displays connection history, login attempts, targeted usernames, recorded commands, session duration when available, and command behavior indicators.
 
